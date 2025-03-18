@@ -1,0 +1,17 @@
+.container{
+    background-color:  blue;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 13px solid brown;
+    border-radius: 20px;
+}
+
+.container1{
+    background-color: brown;
+    padding: 30px;
+     margin-top: 30px; 
+     border: 13px solid blue;
+     border-radius: 20px;
+}

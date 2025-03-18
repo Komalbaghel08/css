@@ -1,0 +1,19 @@
+.container{
+
+}
+.thailand{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+h1{
+    text-align: center;
+}
+.hh{
+    display: flex;
+    /* justify-content: space-between; */
+}
