@@ -8,6 +8,7 @@
     border-radius: 20px;
     color: black;
     margin-top: 100px;
+    justify-content: space-evenly;
 }
 body{
     display: flex;
@@ -18,4 +19,11 @@ body{
 .hh{
     margin-top: 350px;
     margin-left: 20px;
+}
+.main{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 20px;
 }
