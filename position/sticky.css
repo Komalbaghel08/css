@@ -1,0 +1,13 @@
+.navbaar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: chartreuse;
+    position: sticky;
+    top: 0px;
+}
+.navbaar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
