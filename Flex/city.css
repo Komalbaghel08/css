@@ -1,19 +1,51 @@
-.container{
+*{
+    margin: 0;
+    padding: 0;
+}
 
+.container{
+display: flex;
+align-items: center; 
+justify-content: center;
+/* gap: 40px; */
+margin-top: 100px; 
+margin-bottom: 100px;
 }
 .thailand{
-    height: 300px;
-    width: 300px;
-    border: 2px solid black;
+    width: 440px;
+    height: 500px;
+    border: 2px solid gray;
+    border-radius: 20px;
 }
 img{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 400px;
+   margin-top: 20px;
+   margin-left: 20px;
 }
 h1{
     text-align: center;
 }
+.thailand p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
 .hh{
     display: flex;
-    /* justify-content: space-between; */
+align-items: center;
+justify-content: center;
+gap: 250px;
+margin-top: 20px ;
+margin-left: 20px;
+}
+.hh button{
+    background-color: blue;
+    width: 120px;
+    border: none;
+    color: white;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
