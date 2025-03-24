@@ -1,0 +1,19 @@
+button:hover{
+    background-color: cadetblue;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1:hover{
+    color: blue;
+}
+.parent h2:last-child{
+    background-color: brown;
+}
+.parent h2:first-child{
+    background-color: chartreuse;
+}
+.hh h2:nth-child(even){
+    background-color: rgb(255, 0, 85);
+}

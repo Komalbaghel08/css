@@ -1,0 +1,6 @@
+table th{
+    background-color: lightgray;
+}
+table tr:nth-child(odd){
+    background-color: rgb(255, 0, 217);
+}
