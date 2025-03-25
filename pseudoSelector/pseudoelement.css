@@ -1,0 +1,18 @@
+.hh::first-letter{
+font-size: 60px;
+color: rgb(231, 15, 202)
+}
+.name::after{
+    content: " singh";
+color: chartreuse;
+}
+.name::before{
+    content: "I am ";
+    color: chartreuse;
+}
+.name{
+    color: chartreuse;
+}
+input::placeholder{
+    color: darkmagenta;
+}

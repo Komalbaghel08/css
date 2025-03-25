@@ -1,0 +1,8 @@
+.parent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.child1{
+    margin-right: 40px;
+}
