@@ -1,0 +1,30 @@
+.navbarr{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 20px;
+}
+.navbarr ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+.navbarr label{
+    display: none;
+}
+#click:checked~.navbarr ul{
+    display: ;
+}
+@media  screen and (max-width: 650px){
+.navbarr label{
+    display: block;
+}
+.navbarr ul{
+    display: none;
+}
+}
+    
