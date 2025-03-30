@@ -1,30 +1,44 @@
-.navbarr{
-    background-color: aqua;
+.navbarr {
+    background-color: rgb(9, 241, 241);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
     gap: 20px;
 }
-.navbarr ul{
+
+.navbarr ul {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
     list-style: none;
 }
-.navbarr label{
+
+.navbarr label {
     display: none;
 }
-#click:checked~.navbarr ul{
-    display: ;
-}
-@media  screen and (max-width: 650px){
-.navbarr label{
+
+#click:checked~.navbarr ul {
     display: block;
 }
-.navbarr ul{
-    display: none;
+
+@media screen and (max-width: 650px) {
+    .navbarr label {
+        display: block;
+    }
+
+    .navbarr ul {
+        display: none;
+        position: absolute;
+        top: 100px;
+        background-color: red;
+        width: 100%;
+    }
 }
+#click:checked~.navbarr ul{
+    display: block;
 }
-    
+.navbarr ul li{
+    padding: 10px;
+}
