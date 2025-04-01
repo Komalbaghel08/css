@@ -1,0 +1,13 @@
+.main{
+    animation:  duration timing-function delay iteration-count direction fill-mode;
+    animation: bgcolor 5s ease infinite;
+    background-color: blue;
+}
+@keyframes bgcolor{
+0%{
+    background-color: brown;
+}
+45%{
+    background-color: chartreuse;
+}
+}
