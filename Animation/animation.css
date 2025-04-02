@@ -6,8 +6,12 @@
 @keyframes bgcolor{
 0%{
     background-color: brown;
+    /* transform: rotate(45deg);
+    transform: scale(1.4); */
+    transform: translateX();
 }
 45%{
     background-color: chartreuse;
+    transform: rotate(90deg);
 }
 }
