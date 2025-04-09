@@ -17,11 +17,11 @@
         background-color: brown;
         transform: translate(0px,0px);
     }
-    25%{
+    30%{
         background-color: aqua;
         transform: translate(400px,0px);
     }
-    50%{
+    40%{
         background-color: rebeccapurple;
         transform: translate(400px,400px);
     }
