@@ -1,0 +1,14 @@
+.box1 , .box2 ,.box3 ,.box4 ,.box5{
+    border: 1px solid black;
+    background-color: blueviolet;
+}
+.main{
+    height: 100vh;
+    display: grid;
+    background-color: chocolate;
+    grid-template-columns: repeat(2,auto);
+}
+.box3{
+grid-column-start: 1;
+grid-column-end: 3;
+}
