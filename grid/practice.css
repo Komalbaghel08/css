@@ -1,0 +1,16 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* space between boxes */
+  padding: 20px;
+}
+
+.box {
+  background-color: #4CAF50;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 8px;
+}
